@@ -18,3 +18,8 @@ a :visited {
 a :hover a :active {
     color: #eee;
 }
+
+hr {
+    height: 10pt;
+    color: black;
+}
