@@ -1,0 +1,25 @@
+html {
+    font-size: 24px;
+}
+
+body {
+    background-color: gold;
+    color: black;
+}
+
+a {
+   color: red; 
+}
+
+a :visited {
+    color: white;
+}
+
+a :hover a :active {
+    color: #eee;
+}
+
+hr {
+    height: 10pt;
+    color: black;
+}
