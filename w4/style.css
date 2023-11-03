@@ -3,8 +3,8 @@ html {
 }
 
 body {
-    background-color: gold;
-    color: black;
+    background-color: #f9d318;
+    color: #000;
 }
 
 section {
@@ -12,7 +12,7 @@ section {
 }
 
 a {
-   color: red; 
+   color: #f00; 
 }
 
 a :visited {

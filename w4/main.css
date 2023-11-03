@@ -3,20 +3,12 @@ html {
 }
 
 body {
-    background-color: gold;
-    color: black;
+    background-color: #f9D318;
+    color: #000;
 }
 
 a {
-   color: red; 
-}
-
-a :visited {
-    color: white;
-}
-
-a :hover :active {
-    color: #eee;
+   color: #FF0000; 
 }
 
 hr {
@@ -29,4 +21,14 @@ table, tr, th, td, caption {
     font-family: 'Courier New', Courier, monospace;
     border-collapse: collapse;
     padding: 0.5rem;
+}
+
+.container {
+    border: 10px solid red;
+    text-align: center;
+    font-style: oblique;
+    font-family: sans-serif;
+    font-size: 24px;
+    padding: 5rem;
+    margin: 1rem;
 }
