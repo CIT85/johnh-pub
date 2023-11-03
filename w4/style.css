@@ -7,6 +7,10 @@ body {
     color: black;
 }
 
+section {
+    padding: 15%;
+}
+
 a {
    color: red; 
 }
@@ -15,7 +19,7 @@ a :visited {
     color: white;
 }
 
-a :hover :active {
+a :hover {
     color: #eee;
 }
 
@@ -29,4 +33,5 @@ table, tr, th, td, caption {
     font-family: 'Courier New', Courier, monospace;
     border-collapse: collapse;
     padding: 0.5rem;
+    text-align: center;
 }
