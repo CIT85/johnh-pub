@@ -2,6 +2,11 @@ html {
     font-size: 24px;
 }
 
+hr {
+    height: 10pt;
+    color: #000;
+}
+
 body {
     background-color: #f9D318;
     color: #000;
@@ -9,11 +14,6 @@ body {
 
 a {
    color: #FF0000; 
-}
-
-hr {
-    height: 10pt;
-    color: black;
 }
 
 table, tr, th, td, caption {

@@ -25,7 +25,7 @@ a :hover {
 
 hr {
     height: 10pt;
-    color: black;
+    color: #000;
 }
 
 table, tr, th, td, caption {

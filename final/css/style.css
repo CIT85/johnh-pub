@@ -1,0 +1,189 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+
+/* || RESET */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* || GENERAL STYLES */
+.container {
+  display: grid;
+  font: 26px bolder;
+  background-image: url(../img/49ersnb.png);
+
+}
+
+.box {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+
+a:hover a:focus {
+  color: #000;
+}
+
+a:any-link {
+  font-weight: bolder;
+  color: hsla(0, 0%, 0%, 0.901);
+}
+
+a:active {
+  color: #000;
+}
+
+.navigation {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  background-image: radial-gradient(#fff, #C12626);
+}
+
+.sources {
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  flex-direction: row;
+  text-align: center;
+  gap: 1rem;
+}
+
+fieldset {
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+button {
+  font: 24px bolder;
+  background-color: #C12626;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+header, main, section, body, footer{
+  display: grid;
+  text-align: center;
+}
+
+table, tr, th, td, caption {
+  border: 3px double rgba(0, 0, 0, 0.572);
+  border-collapse: collapse;
+  padding: 0.5rem;
+  text-align: center;
+
+  margin-left: auto;
+  margin-right: auto;
+}
+
+fieldset {
+  display: flex;
+  justify-content: center;
+}
+
+.bullet {
+  font-size: 18px;
+  font-weight: bolder;
+}
+
+
+/* || SMALL */
+@media screen and (min-width: 481;) {
+  html {
+    font-family: "Roboto", sans-serif;
+    font-size: 18px;
+    font-weight: bolder;
+    background-color: #F4E87C;
+    background-image: radial-gradient(#FFFFFF, #F4E87C);
+  }
+}
+
+
+
+/* || MEDIUM */
+@media screen and (min-width: 769px) {
+  html {
+    font-family: "Roboto", sans-serif;
+    font-size: 22px;
+    font-weight: bolder;
+    background-color: #C12626;
+    background-image: radial-gradient(#FFFFFF, #F4E87C);
+  }
+}
+
+/* || LARGE */
+@media screen and (min-width: 1025px) {
+  html {
+    font-family: "Roboto", sans-serif;
+    font-size: 26px;
+    font-weight: bolder;
+    background-color: #F4E87C;
+    background-image: radial-gradient(#F9F8F0, #C12626);
+  }
+}
+
+/* || XL  */
+@media screen and (min-width: 1201px) {
+  html {
+    font-family: "Roboto", sans-serif;
+    font-size: 32px;
+    font-weight: bolder;
+    background-color: #C12626;
+    background-image: radial-gradient(#C12626, #F4E87C);
+  }
+}
+
+/* || MOBILE DEVICE LANDSCAPE  */
+@media screen and (max-height: 425px) and (min-aspect-ratio: 7/4) {
+  html {
+    font-family: "Roboto", sans-serif;
+    font-size: 12px;
+    font-weight: bolder;
+    background-color: #F4E87C;
+    background-image: radial-gradient(#F4E87C, #C12626);
+  }
+}
+/* || MEDIUM */
+@media screen and (min-width: 769px) {
+  html {
+    font-family: "Roboto", sans-serif;
+    font-size: 22px;
+    font-weight: bolder;
+    background-color: #C12626;
+    background-image: radial-gradient(#FFFFFF, #F4E87C);
+  }
+}
+
+/* || LARGE */
+@media screen and (min-width: 1025px) {
+  html {
+    font-family: "Roboto", sans-serif;
+    font-size: 26px;
+    font-weight: bolder;
+    background-color: #F4E87C;
+    background-image: radial-gradient(#F9F8F0, #C12626);
+  }
+}
+
+/* || XL  */
+@media screen and (min-width: 1201px) {
+  html {
+    font-family: "Roboto", sans-serif;
+    font-size: 32px;
+    font-weight: bolder;
+    background-color: #C12626;
+    background-image: radial-gradient(#C12626, #F4E87C);
+  }
+}
+
+/* || MOBILE DEVICE LANDSCAPE  */
+@media screen and (max-height: 425px) and (min-aspect-ratio: 7/4) {
+  html {
+    font-family: "Roboto", sans-serif;
+    font-size: 12px;
+    font-weight: bolder;
+    background-color: #F4E87C;
+    background-image: radial-gradient(#F4E87C, #C12626);
+  }
+}
