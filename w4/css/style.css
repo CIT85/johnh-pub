@@ -2,10 +2,10 @@
 body {
     font-family: Arial, Helvetica, sans-serif;
     padding: 20px;
-    background-color: #F5F5F5; /* light neutral background */
+    background-color: #F5F5F5;
 }
 
-/* SHARED STYLES: All boxes get these rules */
+/* Shared Styles */
 .swatch {
     height: 150px;
     width: 100%;
@@ -15,18 +15,18 @@ body {
     color: white;
 }
 
-/* 1. Primary Color */
+/* Primary */
 .primary {
-    background-color: #2E7D32; /* green = health/growth */
+    background-color: #2E7D32;
 }
 
-/* 2. Accent Color */
+/* Accent */
 .accent {
-    background-color: #FF8F00; /* orange = energy/highlight */
+    background-color: #FF8F00;
 }
 
-/* 3. Text/Light Color */
+/* Text / Neutral */
 .text {
-    background-color: #424242; /* dark gray for readability */
+    background-color: #424242;
     color: white;
 }
