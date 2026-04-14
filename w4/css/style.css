@@ -1,8 +1,8 @@
 /* General Page Styles */
 body {
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: Verdana, Arial, sans-serif;
     padding: 20px;
-    background-color: #F5F5F5;
+    background-color: aliceblue;
 }
 
 /* Shared Styles */
@@ -11,7 +11,8 @@ body {
     width: 100%;
     margin-bottom: 20px;
     padding: 20px;
-    border: 2px solid black;
+    border: 5px dashed #2E7D32;
+    border-radius: 15px;
     color: white;
 }
 
