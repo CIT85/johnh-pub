@@ -1,0 +1,32 @@
+/* General Page Styles */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 20px;
+    background-color: #F5F5F5; /* light neutral background */
+}
+
+/* SHARED STYLES: All boxes get these rules */
+.swatch {
+    height: 150px;
+    width: 100%;
+    margin-bottom: 20px;
+    padding: 20px;
+    border: 2px solid black;
+    color: white;
+}
+
+/* 1. Primary Color */
+.primary {
+    background-color: #2E7D32; /* green = health/growth */
+}
+
+/* 2. Accent Color */
+.accent {
+    background-color: #FF8F00; /* orange = energy/highlight */
+}
+
+/* 3. Text/Light Color */
+.text {
+    background-color: #424242; /* dark gray for readability */
+    color: white;
+}
