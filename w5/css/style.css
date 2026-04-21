@@ -8,14 +8,19 @@ body {
     background-color: #FFFFFF;
     color: #000000;
     border-width: 5px;
-    border-style: solid; 
+    border-style: solid;
+    padding: 40px;
 }
 
 /* 2. THE MODIFIERS: These give each box a unique border color */
 .box-a {
     border-color: #E63946;
+    margin-bottom: 50px;
 }
 
 .box-b {
     border-color: #1D3557;
+    border-radius: 30px;
 }
+
+/* DevTools Check: Padding is Green, Border is Yellow, Margin is Orange */
