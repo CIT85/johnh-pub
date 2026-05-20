@@ -201,8 +201,6 @@ figure img {
     padding: 40px;
 }
 
-
-
 .mealprep-grid {
     display: grid;
     gap: 20px;
@@ -230,8 +228,15 @@ figure img {
         align-items: center;
     }
 
-   
     .mealprep-grid {
         grid-template-columns: 1fr 1fr;
     }
+}
+
+figcaption {
+    font-size: 0.9rem;
+    font-style: italic;
+    margin-top: 8px;
+    border-top: 1px solid #FF8F00;
+    padding-top: 6px;
 }
