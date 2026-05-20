@@ -137,7 +137,6 @@ nav a:focus {
     text-align: center;
     border: 3px solid #FF8F00;
     border-radius: 10px;
-
     background-image: url('../img/texture.jpg');
     background-repeat: repeat;
 }
@@ -185,11 +184,9 @@ figure img {
 .hero-section {
     background-image: url('../img/chicken.jpg');
     background-color: #000;
-
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center top;
-
     min-height: 60vh;
     padding: 60px 20px;
 }
@@ -211,6 +208,25 @@ figure img {
     padding: 20px;
     border-radius: 10px;
     border: 2px solid #FF8F00;
+}
+
+.mealprep-hero {
+    background-color: #2E7D32;
+    text-align: center;
+    padding: 25px 20px;
+    border-radius: 10px;
+    margin-bottom: 25px;
+}
+
+.mealprep-hero h1 {
+    color: white;
+    font-size: 2rem;
+    margin-bottom: 10px;
+}
+
+.mealprep-hero p {
+    color: #FF8F00;
+    font-weight: bold;
 }
 
 @media (min-width: 700px) {
