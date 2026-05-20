@@ -199,7 +199,21 @@ figure img {
     text-align: center;
     font-weight: bold;
     padding: 40px;
-} 
+}
+
+
+
+.mealprep-grid {
+    display: grid;
+    gap: 20px;
+}
+
+.prep-card {
+    background-color: #2E7D32;
+    padding: 20px;
+    border-radius: 10px;
+    border: 2px solid #FF8F00;
+}
 
 @media (min-width: 700px) {
 
@@ -214,5 +228,10 @@ figure img {
     .feature-grid {
         grid-template-columns: 1fr 1fr;
         align-items: center;
+    }
+
+   
+    .mealprep-grid {
+        grid-template-columns: 1fr 1fr;
     }
 }
